@@ -1598,7 +1598,7 @@ local function build_single_proxy_runtime_doc(proxy, local_port, socks_port, mod
 		},
 		rules = { "MATCH,PROXY" },
 		tun = { enable = false },
-		profile = { ["store-selected"] = true },
+		profile = { ["store-selected"] = true, ["store-fake-ip"] = true },
 		dns = build_dns_section(dns_mode, nil, is_ext_dns)
 	}
 
@@ -1690,7 +1690,7 @@ local function build_tuic_runtime_doc(sid, local_port, socks_port, mode)
 		},
 		rules = { "MATCH,PROXY" },
 		tun = { enable = false },
-		profile = { ["store-selected"] = true },
+		profile = { ["store-selected"] = true, ["store-fake-ip"] = true },
 		dns = build_dns_section(dns_mode, nil, is_ext_dns)
 	}
 
@@ -1751,7 +1751,7 @@ local function build_shadowsocks_runtime_doc(sid, local_port, socks_port, mode)
 		},
 		rules = { "MATCH,PROXY" },
 		tun = { enable = false },
-		profile = { ["store-selected"] = true },
+		profile = { ["store-selected"] = true, ["store-fake-ip"] = true },
 		dns = build_dns_section(dns_mode, nil, is_ext_dns)
 	}
 

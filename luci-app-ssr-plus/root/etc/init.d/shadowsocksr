@@ -642,6 +642,7 @@ prepare_clash_runtime_config() {
 		routing-mark: $CLASH_OUTBOUND_MARK
 		profile:
 		  store-selected: true
+		  store-fake-ip: true
 		tun:
 		  enable: false
 	EOF
@@ -691,7 +692,7 @@ prepare_clash_runtime_config() {
 		echolog "Clash YAML 自定义客户端代理规则已注入：$client_rules 条。"
 	fi
 
-	# Persist Mihomo's store-selected cache across service restarts.
+	# Persist Mihomo's store-selected / store-fake-ip cache across service restarts.
 	if [ -f "$workdir/cache.db" ] && [ ! -L "$workdir/cache.db" ]; then
 		if [ ! -e "$state_file" ]; then
 			mv -f "$workdir/cache.db" "$state_file"
