@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:251
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:326
 msgid ""
 "\"1-3\" is for segmentation at TCP layer, applying to the beginning 1 to 3 "
 "data writes by the client. \"tlshello\" is for TLS client hello packet "
@@ -64,7 +64,7 @@ msgstr ""
 msgid "8 Threads"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:305
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:380
 msgid "<font style='color:red'>"
 msgstr ""
 
@@ -80,8 +80,8 @@ msgid ""
 "etc.</h3>"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:269
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:284
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:344
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:359
 #: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/client-config.lua:1332
 #: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/client-config.lua:1654
 #: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/client-config.lua:1667
@@ -213,7 +213,7 @@ msgstr ""
 msgid "Anti-pollution DNS Server"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:148
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:149
 msgid "Apple Domains DNS"
 msgstr ""
 
@@ -221,11 +221,11 @@ msgstr ""
 msgid "Apple Domains Data"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:143
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:144
 msgid "Apple Domains Update url"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:139
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:140
 msgid "Apple domains optimization"
 msgstr ""
 
@@ -411,15 +411,15 @@ msgstr ""
 msgid "ChinaDNS-NG query protocol"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:133
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:134
 msgid "Chnroute Update url"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:134
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:135
 msgid "Clang.CN"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:135
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:136
 msgid "Clang.CN.CIDR"
 msgstr ""
 
@@ -466,7 +466,7 @@ msgstr ""
 msgid "Click here to manage"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:309
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:384
 #: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/client-config.lua:1162
 #: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/client-config.lua:1518
 #: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/client-config.lua:1545
@@ -739,7 +739,7 @@ msgid ""
 "entries before the original Clash rules."
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:347
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:422
 msgid "Delay (ms)"
 msgstr ""
 
@@ -809,7 +809,7 @@ msgstr ""
 msgid "DoT upstream (Need use wolfssl version)"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:334
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:409
 msgid "Domain Strategy"
 msgstr ""
 
@@ -863,9 +863,9 @@ msgstr ""
 msgid "Edit ShadowSocksR Server"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:177
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:218
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:323
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:178
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:256
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:398
 #: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/server-config.lua:54
 #: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/server.lua:101
 #: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/servers.lua:676
@@ -953,7 +953,7 @@ msgstr ""
 msgid "Enable V3 protocol."
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:154
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:155
 msgid "Enable adblock"
 msgstr ""
 
@@ -969,7 +969,7 @@ msgstr ""
 msgid "Enabled Kernel virtual NIC TUN(optional)"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:201
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:239
 msgid "Enabled Mixed"
 msgstr ""
 
@@ -1123,13 +1123,13 @@ msgstr ""
 msgid "Flow"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:139
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:140
 msgid ""
 "For Apple domains equipped with Chinese mainland CDN, always responsive to "
 "Chinese CDN IP addresses"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:307
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:382
 msgid "For specific usage, see:"
 msgstr ""
 
@@ -1139,27 +1139,27 @@ msgid ""
 "(,)."
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:248
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:323
 msgid "Fragment"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:275
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:350
 msgid "Fragment Delay"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:260
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:335
 msgid "Fragment Length"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:251
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:326
 msgid "Fragment Packets"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:285
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:360
 msgid "Fragmentation interval (ms)"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:270
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:345
 msgid "Fragmented packet length (byte)"
 msgstr ""
 
@@ -1212,7 +1212,7 @@ msgstr ""
 msgid "Global Client"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:214
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:252
 #: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/status.lua:213
 msgid "Global HTTP/HTTPS Proxy Server"
 msgstr ""
@@ -1221,7 +1221,7 @@ msgstr ""
 msgid "Global Mode"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:172
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:173
 #: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/status.lua:204
 msgid "Global SOCKS5 Proxy Server"
 msgstr ""
@@ -1275,7 +1275,7 @@ msgstr ""
 msgid "HTTP"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:222
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:297
 msgid "HTTP Auth Mode"
 msgstr ""
 
@@ -1284,7 +1284,7 @@ msgstr ""
 msgid "HTTP Host"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:232
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:307
 msgid "HTTP Password"
 msgstr ""
 
@@ -1293,11 +1293,11 @@ msgstr ""
 msgid "HTTP Path"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:228
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:303
 msgid "HTTP User"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:222
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:297
 msgid "HTTP proxy auth method, default:none."
 msgstr ""
 
@@ -1370,7 +1370,7 @@ msgid ""
 "If disabled, Redir-Host mode will be used which returns real IP addresses."
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:148
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:149
 msgid "If empty, Not change Apple domains parsing DNS (Default is empty)"
 msgstr ""
 
@@ -1588,7 +1588,7 @@ msgstr ""
 msgid "Level 3 Public DNS-3 (4.2.2.3-4)"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:290
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:365
 msgid "Limit the maximum number of splits."
 msgstr ""
 
@@ -1607,8 +1607,8 @@ msgstr ""
 msgid "Loading..."
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:207
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:237
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:245
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:312
 msgid "Local Port"
 msgstr ""
 
@@ -1667,7 +1667,7 @@ msgstr ""
 msgid "Max Early Data"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:290
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:365
 msgid "Max Split"
 msgstr ""
 
@@ -1725,7 +1725,7 @@ msgstr ""
 msgid "Missing xz support"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:201
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:239
 msgid "Mixed as an alias of socks, default:Enabled."
 msgstr ""
 
@@ -1760,7 +1760,7 @@ msgstr ""
 msgid "Mux"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:158
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:159
 msgid "NEO DEV HOST"
 msgstr ""
 
@@ -1855,7 +1855,7 @@ msgid ""
 "the table."
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:300
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:375
 msgid "Noise"
 msgstr ""
 
@@ -1901,13 +1901,13 @@ msgid ""
 "compatibility issues."
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:286
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:361
 msgid ""
 "Note: When version is higher than 26.6.1, input multiple fragment intervals "
 "saperate with ','."
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:271
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:346
 msgid ""
 "Note: When version is higher than 26.6.1, input multiple fragment lengths "
 "saperate with ','."
@@ -1949,19 +1949,19 @@ msgstr ""
 msgid "Only Common Ports"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:228
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:303
 msgid "Only when HTTP Auth Mode is password valid, Mandatory."
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:232
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:307
 msgid "Only when HTTP Auth Mode is password valid, Not mandatory."
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:190
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:228
 msgid "Only when Socks5 Auth Mode is password valid, Mandatory."
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:195
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:233
 msgid "Only when Socks5 Auth Mode is password valid, Not mandatory."
 msgstr ""
 
@@ -1994,11 +1994,11 @@ msgstr ""
 msgid "Package Name"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:306
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:381
 msgid "Packet or Rand length as a string, e.g., 10-20."
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:343
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:418
 msgid "Packet | Rand Length"
 msgstr ""
 
@@ -2297,7 +2297,7 @@ msgstr ""
 msgid "Reset saved Mihomo proxy-group selections and restore YAML defaults?"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:164
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:165
 msgid "Reset to defaults"
 msgstr ""
 
@@ -2549,7 +2549,7 @@ msgstr ""
 msgid "Socks Version"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:183
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:221
 msgid "Socks protocol auth methods, default:noauth."
 msgstr ""
 
@@ -2558,15 +2558,15 @@ msgstr ""
 msgid "Socks5"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:183
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:221
 msgid "Socks5 Auth Mode"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:195
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:233
 msgid "Socks5 Password"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:190
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:228
 msgid "Socks5 User"
 msgstr ""
 
@@ -2662,7 +2662,7 @@ msgstr ""
 msgid "Successfully retrieved certificate name:"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:162
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:163
 msgid "Support AdGuardHome and DNSMASQ format list"
 msgstr ""
 
@@ -2723,7 +2723,7 @@ msgstr ""
 msgid "TCP Fast Open"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:248
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:323
 msgid ""
 "TCP fragments, which can deceive the censorship system in some cases, such "
 "as bypassing SNI blacklists."
@@ -2805,18 +2805,6 @@ msgstr ""
 msgid "The keep-alive period.(Unit:second)"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/view/shadowsocksr/component.htm:18
-msgid ""
-"The online upgrade downloads and installs the matching NaiveProxy package "
-"for this system from fw876/helloworld releases."
-msgstr ""
-
-#: applications/luci-app-ssr-plus/luasrc/view/shadowsocksr/component.htm:10
-msgid ""
-"The online upgrade downloads and installs the matching Xray-core package for "
-"this system from fw876/helloworld releases."
-msgstr ""
-
 #: applications/luci-app-ssr-plus/luasrc/view/shadowsocksr/component.htm:6
 msgid ""
 "The online upgrade downloads the latest luci-app-ssr-plus package from fw876/"
@@ -2824,10 +2812,24 @@ msgid ""
 "system."
 msgstr ""
 
+#: applications/luci-app-ssr-plus/luasrc/view/shadowsocksr/component.htm:10
+msgid ""
+"The online upgrade downloads the matching Xray-core linux archive for the "
+"current ARCH from the official GitHub release page."
+msgstr ""
+
 #: applications/luci-app-ssr-plus/luasrc/view/shadowsocksr/component.htm:14
 msgid ""
-"The online upgrade downloads and installs the matching Mihomo IPK or APK "
-"package for this system from fw876/helloworld releases."
+"The online upgrade only tracks the latest stable Mihomo release and "
+"downloads the matching linux archive for the current ARCH from the official "
+"GitHub release page."
+msgstr ""
+
+#: applications/luci-app-ssr-plus/luasrc/view/shadowsocksr/component.htm:18
+msgid ""
+"The online upgrade tracks the latest NaiveProxy release and prefers OpenWrt "
+"static archives matching the current ARCH before falling back to other "
+"release assets."
 msgstr ""
 
 #: applications/luci-app-ssr-plus/luasrc/view/shadowsocksr/clash_main_panel.htm:1039
@@ -2867,7 +2869,7 @@ msgstr ""
 msgid "Tips: Fake-IP Filter and Fallback Lists:"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:305
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:380
 msgid "To send noise packets, select \"Noise\" in Xray Settings."
 msgstr ""
 
@@ -2898,7 +2900,7 @@ msgstr ""
 msgid "Try Count"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:327
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:402
 #: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/servers.lua:790
 msgid "Type"
 msgstr ""
@@ -2907,7 +2909,7 @@ msgstr ""
 msgid "UDP"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:300
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:375
 msgid ""
 "UDP noise, Under some circumstances it can bypass some UDP based protocol "
 "restrictions."
@@ -3268,11 +3270,11 @@ msgstr ""
 msgid "Xray"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:245
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:320
 msgid "Xray Fragment Settings"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:303
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:378
 msgid "Xray Noise Packets"
 msgstr ""
 
@@ -3303,7 +3305,7 @@ msgstr ""
 msgid "Zashboard Panel"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:157
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:158
 msgid "adblock_url"
 msgstr ""
 
@@ -3331,7 +3333,7 @@ msgstr ""
 msgid "android"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:159
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:160
 msgid "anti-AD"
 msgstr ""
 
@@ -3339,7 +3341,7 @@ msgstr ""
 msgid "chacha20-poly1305"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:136
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:137
 msgid "china-operator-ip"
 msgstr ""
 
@@ -3385,7 +3387,7 @@ msgstr ""
 msgid "edge"
 msgstr ""
 
-#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:144
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:145
 msgid "felixonmars/dnsmasq-china-list"
 msgstr ""
 
@@ -3461,6 +3463,10 @@ msgstr ""
 
 #: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/client-config.lua:1490
 msgid "qq"
+msgstr ""
+
+#: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/advanced.lua:131
+msgid "qwerttvv/list"
 msgstr ""
 
 #: applications/luci-app-ssr-plus/luasrc/model/cbi/shadowsocksr/client-config.lua:1491
