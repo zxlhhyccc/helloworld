@@ -128,6 +128,7 @@ o:value("https://fastly.jsdelivr.net/gh/YW5vbnltb3Vz/domain-list-community@relea
 o:value("https://fastly.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/gfw.txt", translate("Loyalsoldier/v2ray-rules-dat"))
 o:value("https://fastly.jsdelivr.net/gh/Loukky/gfwlist-by-loukky/gfwlist.txt", translate("Loukky/gfwlist-by-loukky"))
 o:value("https://fastly.jsdelivr.net/gh/gfwlist/gfwlist/gfwlist.txt", translate("gfwlist/gfwlist"))
+o:value("https://fastly.jsdelivr.net/gh/qwerttvv/list/router.txt", translate("qwerttvv/list"))
 o.default = "https://fastly.jsdelivr.net/gh/YW5vbnltb3Vz/domain-list-community@release/gfwlist.txt"
 
 o = s:option(Value, "chnroute_url", translate("Chnroute Update url"))
@@ -178,6 +179,43 @@ o = s:option(Flag, "enabled", translate("Enable"))
 o.default = 0
 o.rmempty = false
 
+--[[
+-- Server Selection
+o = s:option(ListValue, "server", translate("Server"))
+o:value("same", translate("Same as Global Server"))
+for _, key in pairs(key_table) do
+	if type_table[key] ~= "socks5" and type_table[key] ~= "clash" then
+		o:value(key, server_table[key])
+	end
+end
+o.default = "same"
+o.rmempty = false
+
+-- Dynamic value handling based on enabled/disabled state
+o.cfgvalue = function(self, section)
+	local enabled = m:get(section, "enabled")
+	if enabled == "0" then
+		return m:get(section, "old_server")
+	end
+	return Value.cfgvalue(self, section)-- Default to `same` when enabled
+end
+
+o.write = function(self, section, value)
+	local enabled = m:get(section, "enabled")
+	if enabled == "0" then
+		local old_server = Value.cfgvalue(self, section)
+		if old_server ~= "nil" then
+			m:set(section, "old_server", old_server)
+		end
+		m:set(section, "server", "nil")
+	else
+		m:del(section, "old_server")
+		-- Write the value normally when enabled
+		Value.write(self, section, value)
+	end
+end
+]]--
+
 -- Socks Auth
 if is_finded("xray") then
 o = s:option(ListValue, "socks5_auth", translate("Socks5 Auth Mode"), translate("Socks protocol auth methods, default:noauth."))
@@ -218,6 +256,43 @@ if is_finded("3proxy") then
 	o = s:option(Flag, "enabled", translate("Enable"))
 	o.default = 0
 	o.rmempty = false
+
+	--[[
+	-- Server Selection
+	o = s:option(ListValue, "server", translate("Server"))
+	o:value("same", translate("Same as Global Server"))
+	for _, key in pairs(key_table) do
+		if type_table[key] ~= "socks5" and type_table[key] ~= "clash" then
+			o:value(key, server_table[key])
+		end
+	end
+	o.default = "same"
+	o.rmempty = false
+
+	-- Dynamic value handling based on enabled/disabled state
+	o.cfgvalue = function(self, section)
+		local enabled = m:get(section, "enabled")
+		if enabled == "0" then
+			return m:get(section, "old_server")
+		end
+		return Value.cfgvalue(self, section)-- Default to `same` when enabled
+	end
+
+	o.write = function(self, section, value)
+		local enabled = m:get(section, "enabled")
+		if enabled == "0" then
+			local old_server = Value.cfgvalue(self, section)
+			if old_server ~= "nil" then
+				m:set(section, "old_server", old_server)
+			end
+			m:set(section, "server", "nil")
+		else
+			m:del(section, "old_server")
+			-- Write the value normally when enabled
+			Value.write(self, section, value)
+		end
+	end
+	]]--
 
 	o = s:option(ListValue, "http_auth", translate("HTTP Auth Mode"), translate("HTTP proxy auth method, default:none."))
 	o.default = "none"

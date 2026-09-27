@@ -211,7 +211,7 @@ o.validate = function(self, value, section)
 			return table.concat(parts, ",")
 		end
 
-		return nil, translate("Expecting: %s"):format(translate("valid address:port")) -- 有效的地址:端口
+		return nil, translate("Expecting: %s"):format(translate("valid address:port")) 
 	end
 
 	return value
