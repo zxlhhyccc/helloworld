@@ -7,11 +7,15 @@
 		},
 		xray: {
 			label: '<%:Xray-core%>',
-			help: '<%:The online upgrade downloads and installs the matching Xray-core package for this system from fw876/helloworld releases.%>'
+			help: '<%:The online upgrade downloads the matching Xray-core linux archive for the current ARCH from the official GitHub release page.%>'
 		},
 		mihomo: {
 			label: '<%:Mihomo%>',
-			help: '<%:The online upgrade downloads and installs the matching Mihomo IPK or APK package for this system from fw876/helloworld releases.%>'
+			help: '<%:The online upgrade only tracks the latest stable Mihomo release and downloads the matching linux archive for the current ARCH from the official GitHub release page.%>'
+		},
+		naiveproxy: {
+			label: '<%:NaiveProxy%>',
+			help: '<%:The online upgrade tracks the latest NaiveProxy release and prefers OpenWrt static archives matching the current ARCH before falling back to other release assets.%>'
 		}
 	};
 
@@ -49,6 +53,7 @@
 		'Extract failed': '<%:Extract failed%>',
 		'xray binary not found in archive': '<%:xray binary not found in archive%>',
 		'mihomo binary not found in archive': '<%:mihomo binary not found in archive%>',
+		'naive binary not found in archive': '<%:naive binary not found in archive%>',
 		'Install failed': '<%:Install failed%>',
 		'Installed binary failed to run': '<%:Installed binary failed to run%>',
 		'Unsupported package manager': '<%:Unsupported package manager%>',
@@ -637,6 +642,7 @@
 								<option value="mainprogram"><%:SSR Plus+ Main Program%></option>
 								<option value="xray"><%:Xray-core%></option>
 								<option value="mihomo"><%:Mihomo%></option>
+								<option value="naiveproxy"><%:NaiveProxy%></option>
 							</select>
 						</div>
 					</div>
